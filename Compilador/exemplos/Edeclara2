@@ -1,0 +1,8 @@
+programa
+	inteiro n;
+	decimal n;
+	
+	n=4;
+	
+	escreva(n);
+fimprog;

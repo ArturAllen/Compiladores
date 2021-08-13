@@ -1,0 +1,12 @@
+programa
+	inteiro i, soma;
+	vetor v 5;
+	
+	v={4, 1, 0, 3, 1};
+	
+	soma=0;
+	para i de 0 ate 4 faca{
+		soma=soma+v[i];
+	}
+	escreva(soma);
+fimprog;

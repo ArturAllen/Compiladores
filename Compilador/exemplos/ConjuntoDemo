@@ -1,0 +1,23 @@
+programa
+	conjunto c, d, e;
+	inteiro i;
+	
+	c=[3, 1, 5, 6, 1, 7];
+	escreva(c);
+	
+	d=[3, 1, 5, 6, 1, 7];
+	e=[1, 3, 5, 6, 7, 23];
+	
+	c:=d+e;
+	escreva(c);
+	c:=d-e;
+	escreva(c);
+	c:=e-d;
+	escreva(c);
+	c:=d*e;
+	escreva(c);
+	
+	i=15;
+	c:=d<<i;
+	c:=d<<19;
+fimprog;

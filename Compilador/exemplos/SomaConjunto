@@ -1,0 +1,12 @@
+programa
+	inteiro i, soma;
+	conjunto c;
+	
+	c=[4, 1, 0, 3, 1];
+	
+	soma=0;
+	para i em c faca{
+		soma=soma+i;
+	}
+	escreva(soma);
+fimprog;

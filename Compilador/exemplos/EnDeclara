@@ -1,0 +1,7 @@
+programa
+	inteiro n;
+	
+	n=4;
+	
+	escreva(m);
+fimprog;

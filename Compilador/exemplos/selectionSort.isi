@@ -1,0 +1,27 @@
+programa
+	inteiro i, j, k, iMenor, aux;
+	vetor v 10;
+	
+	para i de 0 ate 9 faca{
+		leia(v[i]);
+	}
+
+	para i de 0 ate 8 faca{
+		iMenor = i;
+		j=i+1;
+		para k de j ate 9 faca{
+			se(v[k]<v[iMenor]){
+				iMenor=k;
+			}
+		}
+		aux=v[i];
+		v[i]=v[iMenor];
+		v[iMenor]=aux;
+	}
+	
+	para i de 0 ate 9 faca{
+		escreva(v[i]);
+		espaco();
+	}
+
+fimprog;

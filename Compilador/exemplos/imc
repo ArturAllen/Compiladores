@@ -1,0 +1,12 @@
+programa
+	decimal altura, altura2, peso, imc;
+	
+	leia(peso);
+	leia(altura);
+	
+	altura2=altura*altura;
+	
+	imc=peso/altura2;
+	
+	escreva(imc);
+fimprog;

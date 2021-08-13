@@ -1,0 +1,22 @@
+programa
+	texto nome;
+	inteiro idade, ano, um, zero;
+	
+	um=1;
+	zero=0;
+	
+	leia(nome);
+	leia(ano);
+	idade=2021-ano;
+	
+	escreva(nome);
+	espaco();
+	escreva(idade);
+	linha();	
+	se(idade>18){
+		escreva(um);
+	}
+	senao{
+		escreva(zero);
+	}
+fimprog;

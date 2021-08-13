@@ -1,0 +1,13 @@
+programa
+	texto nome;
+	inteiro idade, ano;
+	
+	
+	leia(nome);
+	leia(ano);
+	idade=2021-ano;
+	
+	escreva(nome);
+	espaco();
+	escreva(idade);
+fimprog;
